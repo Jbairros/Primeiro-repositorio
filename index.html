@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria cebo</title>
+    <link rel="icon" type="image/png" href="/img/icon.png"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"/>
+    
+    <!--script JS bootstrap-->
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
+    crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</head>
+    <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#topo"> Livraria cebo</a>
+
+        <div class="collapse navbar-collapse" id="navBarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li>
+            <a class="nav-link active" aria-current="page" href="#tablivros"
+        >
+            Livros Disponiveis>
+        </a>
+
+</li>
+     <li class="nav-item dropdown">
+     <a
+         class="nav-link dropdown-toggle" 
+         id="dropGeneros" 
+         role="button" 
+         data-bs-toggle="dropdown"
+         href="#drop"
+         aria-expanded="false"
+         >
+              Livros por categorias
+</a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+        <li><a class="dropdown-item" href="#ginfan">Infantil</a></li>
+        <li><a class="dropdown-item" href="#groman">Romance</a></li>
+        <li><a class="dropdown-item" href="#gsus"> Suspense</a></li>
+</ul>
+</li>
+       <li class="nav-item">
+       <a class="nav-link" href="#cadlivros">Cadastrar livros</a>
+            
+
+</li>
+</ul>                 
+</div>    
+</div>
+</nav>
+   <h1 class="display-1 text-center mb-5 mt-3" id="topo">Livraria 1994</h1>
+   <div class="container">
+   <table class="table table-striped table-hover">
+        <thead>
+          <tr> 
+            <th scope="col">Código</th>
+            <th scope="col">Editora</th>
+            <th scope="col">Titulo</th>
+            <th scope="col">Gêneros</th>
+            <th scope="col">Autor(A)</th>
+    </tr>
+    </thead>
+    <tbody>
+       <tr>
+         <th class="text-center table-primary" colspan="5" id="ginfan">
+            Infantil
+    </th> 
+    </tr>
+      <tr>
+        <th scope="row">1</th>
+        <td scope="col">Editora Melhoramentos</td>
+        <td scope="col">A Fazendinha Maluca</td>
+        <td scope="col">infantil, Ficção</td>
+        <td scope="col">Ziraldo</td>
+
+    </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td scope="col">Editora Projeto</td>
+        <td scope="col">Esquisita como eu</td>
+        <td scope="col">Infantil, Ficção</td>
+        <td scope="col">Martha Medeiros</td>
+
+    </tr>
+      <tr>
+      <th scope="row">3</th>
+      <td scope="col">Globinho</td>
+      <td scope="col">O presente do Saci</td>
+      <td scope="col">Infantil, Ficção</td>
+      <td scope="col">Laurabeatriz, Lalau</td>
+
+  </tr>    
+  
+    <tr>
+            <th class="text-center table-primary" colspan="5" id="groman">
+                Romance
+    </th>
+    </tr>  
+      <tr>
+        <th scope="row">4</th>
+        <td scope="col">Independently Published</td>
+        <td scope="col">Seduzida</td>
+        <td scope="col">Romance</td>
+        <td scope="col">D. A. Lemoyne</td>
+
+    </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td scope="col">Alt</td>
+        <td scope="col">Mr. Romance</td>
+        <td scope="col">Romance contemporâneo, Ficção de novo adulto</td>
+        <td scope="col">Leisa Rayven</td>
+    </tr>
+     <tr>
+      <th scope="row">6</th>
+      <td scope="col">Todolivro Distribuidora Ltda</td>
+      <td scope="col">Dom Casmurro</td>
+      <td scope="col"> Romance, Ficção, Memórias, Realismo Literário</td>
+      <td scope="col">Machado de Assis</td>
+  </tr>
+      
+    <tr>
+        <th class="text-center table-primary" colspan="5" id="gsus">
+           Suspense
+   </th> 
+   </tr>  
+       <tr>
+         <th scope="row">7</th>
+         <td scope="col">Intrínseca</td>
+         <td scope="col">O sanatório</td>
+         <td scope="col">Suspense, Ficção, Suspense psicológico</td>
+         <td scope="col">Sarah Pearse</td>
+   </tr>
+       <tr>
+         <th scope="row">8</th>
+         <td scope="col">Record</td>
+         <td scope="col">A paciente silenciosa</td>
+         <td scope="col">Suspense, Romance, Mistério, Suspense psicológico, Romance psicológico, Ficção policial</td>
+         <td scope="col">Alex Michaelides</td>
+   </tr>
+      <tr>
+         <th scope="row">9</th>
+         <td scope="col">Companhia das Letras</td>
+         <td scope="col">Os homens que não amavam as mulheres</td>
+         <td scope="col">Suspense, Ficção policial, Mistério, Noir nórdico</td>
+         <td scope="col">Stieg Larsson></td>
+        
+</tr>
+         <tr id="insertRow"></tr>
+</tbody>
+</table>
+</div>
+
+
+    <div class="mb-5 mt 5">
+       <hr class="border-primary border-3 opacity-75" />
+</div>
+    <div class="container mb-5" id="cadlivros">
+       <h2 class="text-center mb-4">Cadastro de Livros</h2>
+
+       <form name="register" onsubmit="event.preventDefault()">
+                <!-- ?cadastro do codigo e do Titulo -->
+           <div class="row">
+           <div class="mb-3 col" > 
+           <label for="codBook" class="form-label">Código</label>
+           <input type="text" class="form-control" id="codbook" name="cod"/>
+         </div>
+         
+            <div class="mb-3 col">
+            <label for="titleBook" class="form-label">Titulo</label>
+            <input type="text" class="form-control" id="titlebook" name="title"/>
+           </div>
+</div>
+                  <!-- ?Cadastro de diretor e lançamento-->
+                <div class="row">
+                <div class="mb-3 col">
+                  <label for="Publisherbook" class="form-label">Editora</label>
+                  <input type="text" class="form-control" id="publisherBook" name="publisher"/> 
+           </div> 
+           <div class="mb-3 col">
+            <div class="mb-3 col">
+              <label for="AuthorBook" class="form-label">Autor(a)</label>
+              <input type="text" class="form-control" id="authorFilm" name="author"/> 
+       </div> 
+       </div>
+        <!--? Cadastro de genero-->  
+        <p>Selecione o Gênero</p>
+      <div class="row mt-3">
+        <div class="col form-check ms-5">
+          <input type="radio" id="radioGAcao" name="radio" class="form-check-input" value="infantil"/>
+          <label for="radioGinfan" class="form-label">Infantil</label>
+        </div>
+        
+        <div class="col form-check">
+          <input type="radio" id="radioGRoman" name="radio" class="form-check-input" value="romance"/>
+          <label for="radioGRoman" class="form-label">Romance</label>
+        </div>
+        <div class="col form-check">
+          <input type="radio" id="radioGSus" name="radio" class="form-check-input" value="suspense"/>
+          <label for="radioGSus" class="form-label">Suspense</label>
+</div>
+</div>
+<div class="text-center">
+        <button 
+         type="submit"
+         onclick="validationform(); insert()"
+         class="btn btn-primary mt-3">
+             Cadastrar
+
+
+</button>
+</div>
+</form>
+</div>
+</body>
+</html>
